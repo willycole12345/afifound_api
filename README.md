@@ -24,18 +24,18 @@ Simple RESTful API for a task management system using Laravel and Sanctum.
 
 - POST /api/login — login: email, password
 
-# Protected (Bearer token)
+- Protected (Bearer token)
 
-# Add header Authorization: Bearer {token}
+- Add header Authorization: Bearer {token}
 
-# GET /api/TaskList — list tasks (supports status filter and pagination per_page)
+- GET /api/TaskList — list tasks (supports status filter and pagination per_page)
 
-# POST /api/CreateTask — create
+- POST /api/CreateTask — create
 
-# GET /api/Task/{id} — show (supports status filter and pagination per_page)
+- GET /api/Task/{id} — show (supports status filter and pagination per_page)
 
-# GET /api/TaskStatus/{status} - filtering by task status.
+- GET /api/TaskStatus/{status} - filtering by task status.
 
-# PUT /api/updateTask/{recordID} — update (supports status filter and pagination per_page)
+- PUT /api/updateTask/{recordID} — update (supports status filter and pagination per_page)
 
-# DELETE /api/delete/{recordID} — delete
+- DELETE /api/delete/{recordID} — delete
